@@ -26,9 +26,7 @@ public class Client {
         double[] dataNonSort = DataGenerator.generate(100000);
         
        /* Wzorzec Stratega */
-        //...
         Strategy strategy = new Strategy();
-        strategy.Sort(SortTypes.Bubble);
        
         System.out.println(strategy.Sort(SortTypes.Bubble));
         System.out.println(strategy.Sort(SortTypes.Quick));
